@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #206bad;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3c83c0;
+}
+
+.name {
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    color: #5c90be;
+}
+
+.top-container {
+    height: 100vh;
+    background-color: #E4F9F5;
+}
+
+.mid-container {
+    margin-top: 30px;
+}
+
+/* .bottom-container {
+
+} */
+
+img {
+    height: 100px;
+}
+
+.cloud-1 {
+    margin-top: 75px;
+    position: relative;
+    left: 210px;
+
+}
+
+.cloud-2 {
+    position: relative;
+    bottom: 24vh;
+    left: 17vw;
+}
+
+.mountain-img {
+    height: 240px;
+    position: relative;
+    top: 10px;
+    right: 60px;
+}
+
+.intro {
+    width: 70%;
+    margin: 0 auto;
+    font-size: small;
+    line-height: 1.5;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-1-img {
+    border-radius: 50%;
+    height: 180px;
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.skill-2-img {
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    float: right;
+    padding-right: 30px;
+}
+
+a {
+    color: #206bad;
+    padding: 0px 4px;
+}
+
+a:hover {
+    color: #82d682;
+}
+
+.zushious {
+    display: inline-block;
+}
+
+.yt-clone {
+    display: inline-block;
+}
+
+.yt-clone>a>img {
+    height: 200px;
+    margin: 30px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.zushious>a>img {
+    height: 200px;
+    margin: 30px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.yt-clone>a>img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 0px 0px 15px #000000;
+}
+
+.zushious>a>img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 0px 0px 15px #000000;
+}
